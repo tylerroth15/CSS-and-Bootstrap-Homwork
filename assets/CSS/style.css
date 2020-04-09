@@ -1,5 +1,13 @@
-.navbar-brand{}
- 
+#nav{
+    background-color: #59aaa5;
+    color: #ffffff;
+    font-style: bold;
+    
+}
+h1{
+    color: #59aaa5;
+    font-style: bold;
+}
 body {
     background-image: url("http://schroedersolutions.com/wp-content/uploads/2017/02/white-texture-background-1.jpg");
     background-color: #cccccc;
