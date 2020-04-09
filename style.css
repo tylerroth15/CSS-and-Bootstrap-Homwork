@@ -1,0 +1,23 @@
+.navbar-brand{}
+ 
+body {
+    background-image: url("http://schroedersolutions.com/wp-content/uploads/2017/02/white-texture-background-1.jpg");
+    background-color: #cccccc;
+   }
+
+.h-divider{
+ margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:100%;
+ border-top:1px solid gray;
+}
+
+.top{
+    padding-top:50px;
+    padding-bottom: 250px;
+}
+#sticky-footer {
+    flex-shrink: none;
+  }
+
