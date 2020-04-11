@@ -1,3 +1,8 @@
+body {
+    background-image: url("http://schroedersolutions.com/wp-content/uploads/2017/02/white-texture-background-1.jpg");
+    background-color: #cccccc;
+}
+
 #nav{
     background-color: #59aaa5;
     color: #ffffff;
@@ -12,31 +17,27 @@
     margin-top: -10px;
     margin-bottom: -8px;
 }
-h1{
-    color: #59aaa5;
-    font-style: bold;
-}
-body {
-    background-image: url("http://schroedersolutions.com/wp-content/uploads/2017/02/white-texture-background-1.jpg");
-    background-color: #cccccc;
-   }
-.container{
-    margin-left: 20px;
-}
-.h-divider{
- margin-top:5px;
- margin-bottom:5px;
- height:1px;
- width:100%;
- border-top:1px solid gray;
-}
 
 .top{
     padding-top:50px;
     padding-bottom: 250px;
 }
-#sticky-footer {
-    flex-shrink: none;
+
+.container{
+    margin-left: 20px;
+}
+
+h1{
+    color: #59aaa5;
+    font-style: bold;
+}
+
+.h-divider{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:100%;
+    border-top:1px solid gray;
 }
 
 .title{
@@ -51,15 +52,50 @@ body {
     margin-left: 20px;
 }    
 
-@media (min-width: 600px){
-    p{
-        font-size: 1.25rem;
+#sticky-footer {
+    flex-shrink: none;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add  hover effect  */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* linkedIn */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+
+/* mobile device  */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    img{
+        width: 100%
     }
 }
 
-@media  (min-width: 800px) {
-    p{
-        font-size: 1.5rem;
-        line-height: 1.5;
+/* tablet/ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    img{ width: 100%       
     }
+    }
+/* laptop and desktop */
+@media only screen  and (min-width : 1224px){
+}
+/* large screen */
+@media only screen  and (min-width : 1824px) {
 }
