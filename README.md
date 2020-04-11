@@ -6,16 +6,21 @@ In this homework assignment, I was tasked with creating a mobile responsive port
 
 ### Layout
 
+### Bootstrap
+
 Utilizing Bootstrap, I was able to develop my portfolio site to include the following:
-..*Nav Bar
-..*Responsive Layout
-..*Responsive Images
-..*A Sticky Footer
-..*Card layouts that was used on both the about page and the portfolio page
-..*Contact form
+1. Nav Bar
+2. Responsive Layout
+3. Responsive Images
+4. A Sticky Footer
+5. Card layouts that was used on both the about page and the portfolio page
+6. Contact form
+
+### Font-Awesome 
+
 Utilizing Font-Awesome, I was able to style out and link my social media profiles in the sticky footer that I created.  I linked the following to my portfolio website:
-..*Facebook
-..*LinkedIn
+1. Facebook
+2. LinkedIn
 
 ### Design
 Overall, the design is based off the homework examples given. However, I did change the shape of my profile picture and added a texted background to help the overall website have more personality. You can find the HTML and CSS that was used to achieve this design. 
@@ -29,3 +34,26 @@ Overall, the design is based off the homework examples given. However, I did cha
 body{
 background-image= url (“”);
 background-color: #cccccc;}
+
+### Media Queries
+
+Bootstrap helps with the mobile responsive layout of the page but I did need to add a few media queries to help with the breakpoints and they page layouts. I applied the following media queries to my CSS. 
+
+##### mobile device 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    img{
+        width: 100%}
+}
+
+##### tablet/ipad 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    img{ width: 100%}
+    }
+
+##### laptop and desktop
+@media only screen  and (min-width : 1224px){
+}
+
+##### large screen 
+@media only screen  and (min-width : 1824px) {
+}
